@@ -1,11 +1,11 @@
 export default function Articles() {
   return (
-    <div className="container mx-auto px-32">
+    <div className="container mx-auto">
       <div className="relative p-16 mx-16">
-        <h2 className="text-4xl font-bold mb-16 text-center">
+        <h2 className="text-[50px] font-[500] mb-16 text-end">
           Latest Articles
         </h2>
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-3 gap-2">
           {/* Article 1 */}
           <ArticleTile
             title="Design Trends 2023"

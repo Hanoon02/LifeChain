@@ -5,11 +5,9 @@ export default function NavBar() {
         <a href="#" className="text-3xl font-bold text-white">
           LifeChain
         </a>
-        <ul className="flex space-x-6">
+        <ul className="flex gap-5">
           <NavItem text="Home" />
           <NavItem text="About" />
-          <NavItem text="Services" />
-          <NavItem text="Contact" />
         </ul>
       </div>
     </nav>
@@ -19,7 +17,7 @@ export default function NavBar() {
 const NavItem = ({ text }) => {
   return (
     <li className="hover:underline">
-      <a href="#" className="text-white hover:text-blue-200 transition-colors">
+      <a href="/#" className="text-white hover:text-blue-200 transition-colors">
         {text}
       </a>
     </li>
