@@ -1,6 +1,6 @@
 export default function Articles() {
   return (
-    <div className="container mx-auto mt-8 px-32 py-20">
+    <div className="container mx-auto px-32">
       <div className="relative p-16 mx-16">
         <h2 className="text-4xl font-bold mb-16 text-center">
           Latest Articles
