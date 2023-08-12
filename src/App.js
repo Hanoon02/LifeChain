@@ -1,10 +1,10 @@
 import Landing from "./Pages/Landing/Landing";
 import NavBar from "./Pages/NavBar/NavBar";
-import Slideshow from "./Pages/Slideshow/Slideshow";
 import Features from "./Pages/Features/Features";
 import Footer from "./Pages/Footer/Footer";
 import AppFeatures from "./Pages/AppFeatures/AppFeatures";
 import Articles from "./Pages/Articles/Articles";
+import Interview from "./Pages/Interview/Interview";
 
 function App() {
   return (
@@ -12,9 +12,8 @@ function App() {
       <NavBar />
       <Landing />
       <AppFeatures />
+      <Interview/>
       <Features />
-      <Slideshow />
-
       <Articles />
       <Footer />
     </div>
