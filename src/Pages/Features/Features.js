@@ -15,7 +15,7 @@ export default function Features() {
                 </div>
                 <div className={'pt-5 flex justify-center'}>
                     <div className={'w-2/3'}>
-                        <div className={'bg-white drop-shadow-lg h-[500px]'}>
+                        <div className={"bg-[url('../src/Pages/Features/bg.png')] bg-center bg-cover h-[500px]"}>
                             {active === 0 &&
                                 <div className={'flex flex-col justify-center items-center'}>
                                     <p className={'text-[40px] font-[600]'}>0</p>
