@@ -4,7 +4,7 @@ export default function Features() {
     return(
         <>
             <div>
-                <p className={'text-[30px] text-center font-[500]'}> Connect your memories</p>
+                <p className={'text-[40px] text-center font-[600] py-[50px]'}> Connect your memories</p>
                 <div className={'flex gap-5 justify-center'}>
                     <button className={'bg-[#FFA900] hover:bg-[#FFA100] font-[400] text-black px-10 py-2 rounded-md'}>Personal AI</button>
                     <button className={'bg-[#FFA900] hover:bg-[#FFA100] font-[400] text-black px-10 py-2 rounded-md'}>ML Stuff</button>
