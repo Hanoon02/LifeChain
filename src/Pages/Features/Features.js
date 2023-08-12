@@ -7,13 +7,13 @@ export default function Features() {
             <div>
                 <p className={'text-[40px] text-center font-[600] py-[50px]'}> Connect your memories</p>
                 <div className={'flex gap-5 justify-center'}>
-                    <button onClick={()=>setActive(0)} className={`bg-[#FFA900] hover:bg-[#FFA100] font-[400] text-black px-10 py-2 rounded-md ${active===0 && "font-[700] bg-[#FFA100]"}`}>Add Memory</button>
-                    <button onClick={()=>setActive(1)} className={`bg-[#FFA900] hover:bg-[#FFA100] font-[400] text-black px-10 py-2 rounded-md ${active===1 && "font-[700] bg-[#FFA100]"}`}>Personal AI</button>
-                    <button onClick={()=>setActive(2)} className={`bg-[#FFA900] hover:bg-[#FFA100] font-[400] text-black px-10 py-2 rounded-md ${active===2 && "font-[700] bg-[#FFA100]"}`}>Learn</button>
-                    <button onClick={()=>setActive(3)} className={`bg-[#FFA900] hover:bg-[#FFA100] font-[400] text-black px-10 py-2 rounded-md ${active===3 && "font-[700] bg-[#FFA100]"}`}>Experiences</button>
-                    <button onClick={()=>setActive(4)} className={`bg-[#FFA900] hover:bg-[#FFA100] font-[400] text-black px-10 py-2 rounded-md ${active===4 && "font-[700] bg-[#FFA100]"}`}>Identify</button>
+                    <button onClick={()=>setActive(0)} className={`bg-[#FFA900] hover:bg-[#FFA100] text-[18px] font-[400] text-black px-10 py-2 rounded-md ${active===0 && "font-[700] bg-[#FFA000]"}`}>Add Memory</button>
+                    <button onClick={()=>setActive(1)} className={`bg-[#FFA900] hover:bg-[#FFA100] text-[18px] font-[400] text-black px-10 py-2 rounded-md ${active===1 && "font-[700] bg-[#FFA000]"}`}>Personal AI</button>
+                    <button onClick={()=>setActive(2)} className={`bg-[#FFA900] hover:bg-[#FFA100] text-[18px] font-[400] text-black px-10 py-2 rounded-md ${active===2 && "font-[700] bg-[#FFA000]"}`}>Learn</button>
+                    <button onClick={()=>setActive(3)} className={`bg-[#FFA900] hover:bg-[#FFA100] text-[18px] font-[400] text-black px-10 py-2 rounded-md ${active===3 && "font-[700] bg-[#FFA000]"}`}>Experiences</button>
+                    <button onClick={()=>setActive(4)} className={`bg-[#FFA900] hover:bg-[#FFA100] text-[18px] font-[400] text-black px-10 py-2 rounded-md ${active===4 && "font-[700] bg-[#FFA000]"}`}>Identify</button>
                 </div>
-                <div className={' flex justify-center'}>
+                <div className={'pt-5 flex justify-center'}>
                     <div className={'w-2/3'}>
                         <div className={'bg-white drop-shadow-lg h-[500px]'}>
                             {active === 0 &&
