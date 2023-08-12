@@ -1,55 +1,49 @@
 export default function Articles() {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto py-8">
       <div className="relative p-16 mx-16">
         <h2 className="text-[50px] font-[500] mb-16 text-end">
           Latest Articles
         </h2>
-        <div className="grid grid-cols-3 gap-2">
-          {/* Article 1 */}
+        <div className="grid grid-cols-3 gap-6">
           <ArticleTile
             title="Design Trends 2023"
             description="Dive into the top design trends of this year."
-            gradient="from-blue-400 via-purple-500 to-pink-500"
+            gradient="from-blue-400 via-purple-500 to-indigo-600"
             animationDelay="100ms"
             customClass="col-span-1 row-span-2"
           />
 
-          {/* Article 2 */}
           <ArticleTile
             title="Animation in Web"
             description="The role of animations in modern web design."
-            gradient="from-red-400 via-yellow-500 to-orange-500"
+            gradient="from-red-500 via-orange-500 to-yellow-400"
             animationDelay="200ms"
           />
 
-          {/* Article 3 */}
           <ArticleTile
             title="Typography First"
             description="Why typography plays a pivotal role in web aesthetics."
-            gradient="from-green-400 via-teal-500 to-blue-500"
+            gradient="from-green-500 via-teal-500 to-cyan-500"
             animationDelay="300ms"
           />
 
-          {/* Article 4 */}
           <ArticleTile
             title="Responsive Design"
             description="The importance of designing for multiple devices."
-            gradient="from-teal-400 via-cyan-500 to-blue-400"
+            gradient="from-cyan-500 via-blue-500 to-violet-600"
             animationDelay="400ms"
             customClass="col-span-2"
           />
 
-          {/* Article 5 */}
           <ArticleTile
             title="Color Theory in Web"
             description="How to pick the right color combinations for your design."
-            gradient="from-orange-400 via-yellow-400 to-lime-500"
+            gradient="from-orange-500 via-red-400 to-pink-400"
             animationDelay="500ms"
             customClass="row-span-2"
           />
 
-          {/* Article 6 */}
           <ArticleTile
             title="UX Best Practices"
             description="Top strategies for enhancing user experience on your website."
@@ -72,12 +66,11 @@ const ArticleTile = ({
 }) => {
   return (
     <div
-      className={`relative p-4 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:rotate-2 bg-gradient-to-br ${gradient} hover:shadow-xl ${customClass}`}
+      className={`flex flex-col justify-center relative p-4 rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105 hover:rotate-2 bg-gradient-to-br ${gradient} hover:shadow-xl ${customClass}`}
       style={{ animation: `fadeIn ${animationDelay} forwards`, animationDelay }}
     >
-      <h3 className="text-xl font-bold mb-2 text-center">{title}</h3>{" "}
-      {/* Here's the change */}
-      <p className="text-white text-sm">{description}</p>
+      <h3 className="text-2xl font-bold mb-2 text-center">{title}</h3>
+      <p className="text-white text-center">{description}</p>
     </div>
   );
 };
