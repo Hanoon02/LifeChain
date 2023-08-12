@@ -63,6 +63,8 @@ export default function NavBar() {
         <ul className="flex gap-5">
           <NavItem text="Home" />
           <NavItem text="About" />
+          <NavItem text="Testimony" />
+          <NavItem text="Features" />
         </ul>
       </div>
     </nav>

@@ -27,7 +27,7 @@ export default function Features() {
 
   return (
     <div>
-      <p className="text-[40px] text-center font-[600] text-deep-cerulean-dark py-[50px]">
+      <p className="text-[40px] text-center font-[600] text-deep-cerulean-dark py-[10px]">
         Connect your memories
       </p>
       <div className="flex gap-5 justify-center mb-5">

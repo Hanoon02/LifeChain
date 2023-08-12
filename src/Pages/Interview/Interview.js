@@ -51,7 +51,7 @@ export default function Interview() {
     }
 
   return (
-    <div className=" mx-auto mt-8 py-20 bg-white">
+    <div className=" mx-auto py-20 bg-white">
       <div className="flex flex-col justify-center py-12">
         <h2 className="text-4xl font-bold text-deep-cerulean-dark text-center">
           Our Stories
