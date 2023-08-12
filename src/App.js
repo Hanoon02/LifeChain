@@ -4,6 +4,7 @@ import Slideshow from "./Pages/Slideshow/Slideshow";
 import Features from "./Pages/Features/Features";
 import Footer from "./Pages/Footer/Footer";
 import AppFeatures from "./Pages/AppFeatures/AppFeatures";
+import Articles from "./Pages/Articles/Articles";
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
       <AppFeatures />
       <Features />
       <Slideshow />
+
+      <Articles />
       <Footer />
     </div>
   );
