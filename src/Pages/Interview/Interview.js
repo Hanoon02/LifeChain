@@ -3,7 +3,7 @@ import React from "react";
 export default function Interview() {
     return (
         <>
-            <div className={'flex flex-col justify-center py-[50px]'}>
+            <div className={'flex flex-col justify-center py-[20px]'}>
                 <p className={'text-[40px] font-[600] text-center'}> Our Stories </p>
                 <div className={'flex justify-center pt-5 gap-5'}>
                     <div className={'transform rotate-1 transition-transform hover:scale-105 hover:rotate-0 bg-[#f9f4f2] h-[400px] w-[400px] shadow-lg p-8'}>
