@@ -1,6 +1,6 @@
 export default function Landing() {
   return (
-    <div className="bg-[url('../src/Pages/Landing/oldlady.jpeg')] bg-no-repeat mx-auto h-[500px] bg-cover flex items-center justify-center">
+    <div id={"home"} className="bg-[url('../src/Pages/Landing/oldlady.jpeg')] bg-no-repeat mx-auto h-[500px] bg-cover flex items-center justify-center">
       <div className=" inset-0 bg-white opacity-40"></div>{" "}
       <div className="h-1/2  left-10 w-2/5 p-8 rounded-lg flex flex-col items-start justify-start space-y-4 z-10">
         {" "}

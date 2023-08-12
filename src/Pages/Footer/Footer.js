@@ -13,14 +13,11 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="bg-gray-800 text-white py-10">
+    <footer className="bg-gradient-to-r from-deep-cerulean to-deep-cerulean-lighter text-white pb-4">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 py-6">
           {footerLinks.map((section, idx) => (
             <div key={idx}>
-              <h4 className="font-bold mb-4 text-deep-cerulean-dark">
-                {section.title}
-              </h4>
               <ul className="list-none">
                 {section.links.map((link, linkIdx) => (
                   <li key={linkIdx} className="py-1 hover:underline">
@@ -31,7 +28,7 @@ export default function Footer() {
             </div>
           ))}
           <div>
-            <h4 className="font-bold mb-4 text-deep-cerulean-dark">
+            <h4 className="text-white mb-4 ">
               Follow Us
             </h4>
             <div className="flex space-x-4">
@@ -54,7 +51,7 @@ export default function Footer() {
           <div className="flex justify-between">
             <div>
               <p className="text-sm">
-                © {new Date().getFullYear()} Your Company Name. All Rights
+                © {new Date().getFullYear()} LifeChain. All Rights
                 Reserved.
               </p>
             </div>

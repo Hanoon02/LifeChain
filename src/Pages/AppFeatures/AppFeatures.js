@@ -68,7 +68,7 @@
 // };
 export default function AppFeatures() {
   return (
-    <div className="container mx-auto px-32 pt-20 bg-white">
+    <div id={"about"} className="container mx-auto px-32 pt-20 bg-white">
       <div className="text-center">
         <h2 className="text-4xl font-bold mb-16 text-deep-cerulean-dark">
           Discover Our Features

@@ -26,7 +26,7 @@ export default function Features() {
   ];
 
   return (
-    <div>
+    <div id={"features"}>
       <p className="text-[40px] text-center font-[600] text-deep-cerulean-dark py-[10px]">
         Connect your memories
       </p>

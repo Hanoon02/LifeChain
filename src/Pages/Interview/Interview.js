@@ -1,13 +1,16 @@
 import React, {useState} from "react";
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
+import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
+
 const Testimonial = ({ content, author }) => {
     return (
         <div className="bg-white border p-8 h-96 w-96 shadow-lg rounded transform hover:scale-105 transition-transform border-deep-cerulean-lighter">
-            <blockquote className="flex flex-col justify-center h-3/4 text-2xl font-semibold text-deep-cerulean">
+            <div className="flex flex-col items-start  h-3/4 text-2xl font-semibold text-deep-cerulean">
+                <FormatQuoteIcon className="text-4xl mb-4"/>
                 “{content}”
-            </blockquote>
-            <p className="flex items-end h-1/4 text-xl font-light text-deep-cerulean mt-6">
+            </div>
+            <p className="flex items-end h-1/4 text-xl font-light text-deep-cerulean py-2">
                 - {author}
             </p>
         </div>
@@ -51,7 +54,7 @@ export default function Interview() {
     }
 
   return (
-    <div className=" mx-auto py-20 bg-white">
+    <div id={"testimony"} className=" mx-auto py-20 bg-white">
       <div className="flex flex-col justify-center py-12">
         <h2 className="text-4xl font-bold text-deep-cerulean-dark text-center">
           Our Stories

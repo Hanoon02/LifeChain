@@ -61,10 +61,38 @@ export default function NavBar() {
           LifeChain
         </a>
         <ul className="flex gap-5">
-          <NavItem text="Home" />
-          <NavItem text="About" />
-          <NavItem text="Testimony" />
-          <NavItem text="Features" />
+            <li className="hover:underline">
+                <a
+                    href="#home"
+                    className="text-white hover:text-sunset-orange transition-colors"
+                >
+                    Home
+                </a>
+            </li>
+            <li className="hover:underline">
+                <a
+                    href="#about"
+                    className="text-white hover:text-sunset-orange transition-colors"
+                >
+                    About
+                </a>
+            </li>
+            <li className="hover:underline">
+                <a
+                    href="#testimony"
+                    className="text-white hover:text-sunset-orange transition-colors"
+                >
+                    Testimony
+                </a>
+            </li>
+            <li className="hover:underline">
+                <a
+                    href="#features"
+                    className="text-white hover:text-sunset-orange transition-colors"
+                >
+                    Features
+                </a>
+            </li>
         </ul>
       </div>
     </nav>
@@ -75,7 +103,7 @@ const NavItem = ({ text }) => {
   return (
     <li className="hover:underline">
       <a
-        href="/#"
+        href="#"
         className="text-white hover:text-sunset-orange transition-colors"
       >
         {text}
