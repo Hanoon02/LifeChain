@@ -3,9 +3,9 @@ import NavBar from "./Pages/NavBar/NavBar";
 
 function App() {
   return (
-    <div className="App">
-        <NavBar/>
-        <Landing/>
+    <div className="App min-h-screen">
+      <NavBar />
+      <Landing />
     </div>
   );
 }
