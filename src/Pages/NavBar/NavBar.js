@@ -3,7 +3,7 @@ export default function NavBar() {
     <nav className="bg-gradient-to-r from-blue-500 to-purple-600 py-4">
       <div className="container mx-auto flex justify-between items-center">
         <a href="#" className="text-3xl font-bold text-white">
-          HealthHub
+          LifeChain
         </a>
         <ul className="flex space-x-6">
           <NavItem text="Home" />
