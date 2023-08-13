@@ -55,10 +55,10 @@
 
 export default function NavBar() {
   return (
-    <nav className="bg-gradient-to-r from-deep-cerulean to-deep-cerulean-lighter py-4">
-      <div className="container mx-auto flex justify-between items-center">
+    <nav className="bg-gradient-to-r from-deep-cerulean to-deep-cerulean-lighter">
+      <div className="px-10 flex justify-between items-center">
         <a href="#" className="text-3xl font-bold text-white">
-          LifeChain
+          <img src={require('./logo.png')} alt="logo" className="h-[80px]" />
         </a>
         <ul className="flex gap-5">
             <li className="hover:underline">
