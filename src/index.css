@@ -18,3 +18,46 @@ code {
 html {
   scroll-behavior: smooth;
 }
+
+@keyframes emergeBounceAndReturn {
+  0% {
+    transform: translateX(0) translateY(0) rotate(10deg);
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(-5%) translateY(5%) rotate(10deg);
+  }
+  100% {
+    transform: translateX(0) translateY(0) rotate(10deg);
+  }
+}
+
+@keyframes emergeBounceAndReturnRight {
+  0% {
+    transform: translateX(0) translateY(0) rotate(-10deg);
+  }
+  50% {
+    transform: translateX(5%) translateY(5%) rotate(-10deg);
+  }
+  100% {
+    transform: translateX(0) translateY(0) rotate(-10deg);
+  }
+}
+
+.image {
+  position: absolute;
+  transform: translateY(-50%);
+  opacity: 1;
+}
+
+.image.image-left {
+  left: 0;
+  transform: translateX(-100%) translateY(-100%) rotate(10deg);
+  animation: emergeBounceAndReturn 1s ease-in-out forwards;
+}
+
+.image.image-right {
+  right: 0;
+  transform: translateX(100%) translateY(-100%) rotate(-10deg);
+  animation: emergeBounceAndReturnRight 1s ease-in-out forwards;
+}

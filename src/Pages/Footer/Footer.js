@@ -13,7 +13,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="bg-gradient-to-r from-deep-cerulean to-deep-cerulean-lighter text-white pb-4">
+    <footer className="bg-gradient-to-r from-deep-cerulean to-deep-cerulean-lighter text-black pb-4">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 py-6">
           {footerLinks.map((section, idx) => (
@@ -28,7 +28,7 @@ export default function Footer() {
             </div>
           ))}
           <div>
-            <h4 className="text-white mb-4 ">
+            <h4 className=" mb-4 ">
               Follow Us
             </h4>
             <div className="flex space-x-4">
@@ -62,7 +62,7 @@ export default function Footer() {
                   placeholder="Enter your email..."
                   className="p-2 rounded-md text-black"
                 />
-                <button className="bg-deep-cerulean-dark py-2 px-4 rounded-md hover:bg-deep-cerulean-light">
+                <button className="text-white bg-deep-cerulean-dark py-2 px-4 rounded-md hover:bg-deep-cerulean-light">
                   Subscribe
                 </button>
               </form>
